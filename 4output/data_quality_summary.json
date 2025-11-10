@@ -1,0 +1,394 @@
+{
+  "metadata": {
+    "generated_at": "2025-11-10T13:42:59.733975",
+    "total_rows": 7450,
+    "total_symbols": 12,
+    "symbols": [
+      "FUT1",
+      "FUT10",
+      "FUT11",
+      "FUT12",
+      "FUT2",
+      "FUT3",
+      "FUT4",
+      "FUT5",
+      "FUT6",
+      "FUT7",
+      "FUT8",
+      "FUT9"
+    ]
+  },
+  "overall_quality": {
+    "clean_rows": 2499,
+    "clean_percentage": 33.54,
+    "rows_with_issues": 4951,
+    "issue_percentage": 66.46
+  },
+  "issue_breakdown": {
+    "sentinel_values": {
+      "count": 1452,
+      "percentage": 19.49
+    },
+    "negative_values": {
+      "count": 1667,
+      "percentage": 22.38
+    },
+    "ohlc_violation": {
+      "count": 1224,
+      "percentage": 16.43,
+      "details": {
+        "high_lt_low": 295,
+        "open_outside_range": 897,
+        "close_outside_range": 937
+      }
+    },
+    "has_missing_data": {
+      "count": 1131,
+      "percentage": 15.18
+    },
+    "is_duplicate": {
+      "count": 662,
+      "percentage": 8.89
+    },
+    "stale_prices": {
+      "count": 3,
+      "percentage": 0.04
+    },
+    "volume_price_anomaly": {
+      "count": 295,
+      "percentage": 3.96
+    },
+    "statistical_outliers": {
+      "count": 1397,
+      "percentage": 18.75
+    },
+    "volume_jump_outliers": {
+      "count": 338,
+      "percentage": 4.54
+    }
+  },
+  "per_symbol": {
+    "FUT1": {
+      "total_rows": 647,
+      "rows_with_issues": 366,
+      "issue_percentage": 56.57,
+      "issues": {
+        "sentinel_values": 126,
+        "negative_values": 158,
+        "ohlc_violation": 111,
+        "has_missing_data": 3,
+        "is_duplicate": 2,
+        "stale_prices": 0,
+        "volume_price_anomaly": 31,
+        "statistical_outliers": 114,
+        "volume_jump_outliers": 26
+      }
+    },
+    "FUT2": {
+      "total_rows": 647,
+      "rows_with_issues": 369,
+      "issue_percentage": 57.03,
+      "issues": {
+        "sentinel_values": 130,
+        "negative_values": 144,
+        "ohlc_violation": 125,
+        "has_missing_data": 1,
+        "is_duplicate": 0,
+        "stale_prices": 0,
+        "volume_price_anomaly": 31,
+        "statistical_outliers": 122,
+        "volume_jump_outliers": 33
+      }
+    },
+    "FUT3": {
+      "total_rows": 647,
+      "rows_with_issues": 391,
+      "issue_percentage": 60.43,
+      "issues": {
+        "sentinel_values": 125,
+        "negative_values": 158,
+        "ohlc_violation": 130,
+        "has_missing_data": 1,
+        "is_duplicate": 0,
+        "stale_prices": 0,
+        "volume_price_anomaly": 31,
+        "statistical_outliers": 152,
+        "volume_jump_outliers": 28
+      }
+    },
+    "FUT4": {
+      "total_rows": 647,
+      "rows_with_issues": 386,
+      "issue_percentage": 59.66,
+      "issues": {
+        "sentinel_values": 140,
+        "negative_values": 164,
+        "ohlc_violation": 126,
+        "has_missing_data": 1,
+        "is_duplicate": 0,
+        "stale_prices": 0,
+        "volume_price_anomaly": 30,
+        "statistical_outliers": 133,
+        "volume_jump_outliers": 28
+      }
+    },
+    "FUT5": {
+      "total_rows": 647,
+      "rows_with_issues": 355,
+      "issue_percentage": 54.87,
+      "issues": {
+        "sentinel_values": 110,
+        "negative_values": 146,
+        "ohlc_violation": 116,
+        "has_missing_data": 0,
+        "is_duplicate": 0,
+        "stale_prices": 0,
+        "volume_price_anomaly": 31,
+        "statistical_outliers": 114,
+        "volume_jump_outliers": 33
+      }
+    },
+    "FUT6": {
+      "total_rows": 647,
+      "rows_with_issues": 369,
+      "issue_percentage": 57.03,
+      "issues": {
+        "sentinel_values": 132,
+        "negative_values": 129,
+        "ohlc_violation": 136,
+        "has_missing_data": 1,
+        "is_duplicate": 0,
+        "stale_prices": 0,
+        "volume_price_anomaly": 30,
+        "statistical_outliers": 139,
+        "volume_jump_outliers": 25
+      }
+    },
+    "FUT7": {
+      "total_rows": 647,
+      "rows_with_issues": 428,
+      "issue_percentage": 66.15,
+      "issues": {
+        "sentinel_values": 135,
+        "negative_values": 150,
+        "ohlc_violation": 131,
+        "has_missing_data": 72,
+        "is_duplicate": 0,
+        "stale_prices": 0,
+        "volume_price_anomaly": 28,
+        "statistical_outliers": 126,
+        "volume_jump_outliers": 30
+      }
+    },
+    "FUT8": {
+      "total_rows": 647,
+      "rows_with_issues": 385,
+      "issue_percentage": 59.51,
+      "issues": {
+        "sentinel_values": 121,
+        "negative_values": 140,
+        "ohlc_violation": 113,
+        "has_missing_data": 23,
+        "is_duplicate": 0,
+        "stale_prices": 0,
+        "volume_price_anomaly": 30,
+        "statistical_outliers": 128,
+        "volume_jump_outliers": 31
+      }
+    },
+    "FUT9": {
+      "total_rows": 592,
+      "rows_with_issues": 359,
+      "issue_percentage": 60.64,
+      "issues": {
+        "sentinel_values": 132,
+        "negative_values": 147,
+        "ohlc_violation": 115,
+        "has_missing_data": 0,
+        "is_duplicate": 0,
+        "stale_prices": 0,
+        "volume_price_anomaly": 27,
+        "statistical_outliers": 158,
+        "volume_jump_outliers": 36
+      }
+    },
+    "FUT10": {
+      "total_rows": 388,
+      "rows_with_issues": 280,
+      "issue_percentage": 72.16,
+      "issues": {
+        "sentinel_values": 124,
+        "negative_values": 150,
+        "ohlc_violation": 69,
+        "has_missing_data": 0,
+        "is_duplicate": 0,
+        "stale_prices": 2,
+        "volume_price_anomaly": 16,
+        "statistical_outliers": 108,
+        "volume_jump_outliers": 35
+      }
+    },
+    "FUT11": {
+      "total_rows": 647,
+      "rows_with_issues": 616,
+      "issue_percentage": 95.21,
+      "issues": {
+        "sentinel_values": 107,
+        "negative_values": 116,
+        "ohlc_violation": 44,
+        "has_missing_data": 442,
+        "is_duplicate": 220,
+        "stale_prices": 1,
+        "volume_price_anomaly": 8,
+        "statistical_outliers": 74,
+        "volume_jump_outliers": 29
+      }
+    },
+    "FUT12": {
+      "total_rows": 647,
+      "rows_with_issues": 647,
+      "issue_percentage": 100.0,
+      "issues": {
+        "sentinel_values": 70,
+        "negative_values": 65,
+        "ohlc_violation": 8,
+        "has_missing_data": 587,
+        "is_duplicate": 440,
+        "stale_prices": 0,
+        "volume_price_anomaly": 2,
+        "statistical_outliers": 29,
+        "volume_jump_outliers": 4
+      }
+    }
+  },
+  "temporal": {
+    "monthly_error_rates": {
+      "error_count": {
+        "2023-01": 108,
+        "2023-02": 108,
+        "2023-03": 169,
+        "2023-04": 123,
+        "2023-05": 170,
+        "2023-06": 176,
+        "2023-07": 166,
+        "2023-08": 150,
+        "2023-09": 149,
+        "2023-10": 143,
+        "2023-11": 151,
+        "2023-12": 109,
+        "2024-01": 105,
+        "2024-02": 126,
+        "2024-03": 132,
+        "2024-04": 156,
+        "2024-05": 153,
+        "2024-06": 118,
+        "2024-07": 142,
+        "2024-08": 117,
+        "2024-09": 112,
+        "2024-10": 147,
+        "2024-11": 120,
+        "2024-12": 127,
+        "2025-01": 116,
+        "2025-02": 120,
+        "2025-03": 156,
+        "2025-04": 145,
+        "2025-05": 168,
+        "2025-06": 153,
+        "2025-07": 154
+      },
+      "total_count": {
+        "2023-01": 197,
+        "2023-02": 181,
+        "2023-03": 251,
+        "2023-04": 199,
+        "2023-05": 244,
+        "2023-06": 250,
+        "2023-07": 230,
+        "2023-08": 240,
+        "2023-09": 213,
+        "2023-10": 220,
+        "2023-11": 215,
+        "2023-12": 191,
+        "2024-01": 202,
+        "2024-02": 214,
+        "2024-03": 220,
+        "2024-04": 235,
+        "2024-05": 235,
+        "2024-06": 192,
+        "2024-07": 234,
+        "2024-08": 224,
+        "2024-09": 204,
+        "2024-10": 226,
+        "2024-11": 193,
+        "2024-12": 208,
+        "2025-01": 204,
+        "2025-02": 200,
+        "2025-03": 231,
+        "2025-04": 230,
+        "2025-05": 236,
+        "2025-06": 227,
+        "2025-07": 242
+      },
+      "error_rate": {
+        "2023-01": 0.5482,
+        "2023-02": 0.5967,
+        "2023-03": 0.6733,
+        "2023-04": 0.6181,
+        "2023-05": 0.6967,
+        "2023-06": 0.704,
+        "2023-07": 0.7217,
+        "2023-08": 0.625,
+        "2023-09": 0.6995,
+        "2023-10": 0.65,
+        "2023-11": 0.7023,
+        "2023-12": 0.5707,
+        "2024-01": 0.5198,
+        "2024-02": 0.5888,
+        "2024-03": 0.6,
+        "2024-04": 0.6638,
+        "2024-05": 0.6511,
+        "2024-06": 0.6146,
+        "2024-07": 0.6068,
+        "2024-08": 0.5223,
+        "2024-09": 0.549,
+        "2024-10": 0.6504,
+        "2024-11": 0.6218,
+        "2024-12": 0.6106,
+        "2025-01": 0.5686,
+        "2025-02": 0.6,
+        "2025-03": 0.6753,
+        "2025-04": 0.6304,
+        "2025-05": 0.7119,
+        "2025-06": 0.674,
+        "2025-07": 0.6364
+      }
+    },
+    "worst_months": {
+      "error_count": {
+        "2023-07": 166,
+        "2025-05": 168,
+        "2023-06": 176,
+        "2023-11": 151,
+        "2023-09": 149
+      },
+      "total_count": {
+        "2023-07": 230,
+        "2025-05": 236,
+        "2023-06": 250,
+        "2023-11": 215,
+        "2023-09": 213
+      },
+      "error_rate": {
+        "2023-07": 0.7217,
+        "2025-05": 0.7119,
+        "2023-06": 0.704,
+        "2023-11": 0.7023,
+        "2023-09": 0.6995
+      }
+    },
+    "overall_time_range": {
+      "start": "2023-01-03",
+      "end": "2025-07-31"
+    }
+  }
+}

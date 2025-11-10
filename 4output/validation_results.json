@@ -1,0 +1,721 @@
+{
+  "check_1_new_violations": {
+    "ohlc_violations": {
+      "high_lt_low": "0",
+      "open_outside_range": "0",
+      "close_outside_range": "0"
+    },
+    "negative_values": {
+      "Open": "0",
+      "High": "0",
+      "Low": "0",
+      "Close": "0",
+      "Volume": "0",
+      "Open Interest": "0"
+    },
+    "sentinel_values_remaining": 0,
+    "total_violations_after_repair": 0,
+    "success": "True"
+  },
+  "check_2_distribution_preservation": {
+    "Open": {
+      "FUT1": {
+        "ks_statistic": 0.10072955974842768,
+        "p_value": 0.29760599803244137,
+        "distributions_similar": "True",
+        "n_clean": 318,
+        "n_imputed": 125
+      },
+      "FUT10": {
+        "ks_statistic": 0.13388543823326432,
+        "p_value": 0.3792083453581809,
+        "distributions_similar": "True",
+        "n_clean": 138,
+        "n_imputed": 63
+      },
+      "FUT11": {
+        "ks_statistic": 0.2945590994371482,
+        "p_value": 0.10024344340122651,
+        "distributions_similar": "True",
+        "n_clean": 41,
+        "n_imputed": 26
+      },
+      "FUT2": {
+        "ks_statistic": 0.04297945205479452,
+        "p_value": 0.9853555595002663,
+        "distributions_similar": "True",
+        "n_clean": 292,
+        "n_imputed": 160
+      },
+      "FUT3": {
+        "ks_statistic": 0.08795820486467969,
+        "p_value": 0.36563628112629737,
+        "distributions_similar": "True",
+        "n_clean": 278,
+        "n_imputed": 168
+      },
+      "FUT4": {
+        "ks_statistic": 0.060225590772214566,
+        "p_value": 0.8761234967607998,
+        "distributions_similar": "True",
+        "n_clean": 311,
+        "n_imputed": 126
+      },
+      "FUT5": {
+        "ks_statistic": 0.09563994374120956,
+        "p_value": 0.32642931203025327,
+        "distributions_similar": "True",
+        "n_clean": 316,
+        "n_imputed": 135
+      },
+      "FUT6": {
+        "ks_statistic": 0.05362406797294954,
+        "p_value": 0.9094891834387411,
+        "distributions_similar": "True",
+        "n_clean": 292,
+        "n_imputed": 158
+      },
+      "FUT7": {
+        "ks_statistic": 0.15236629472874183,
+        "p_value": 0.032760810235742725,
+        "distributions_similar": "False",
+        "n_clean": 226,
+        "n_imputed": 138
+      },
+      "FUT8": {
+        "ks_statistic": 0.09288938012342268,
+        "p_value": 0.3307997422238887,
+        "distributions_similar": "True",
+        "n_clean": 282,
+        "n_imputed": 154
+      },
+      "FUT9": {
+        "ks_statistic": 0.0625,
+        "p_value": 0.8131664531276502,
+        "distributions_similar": "True",
+        "n_clean": 248,
+        "n_imputed": 160
+      }
+    },
+    "High": {
+      "FUT1": {
+        "ks_statistic": 0.10387421383647799,
+        "p_value": 0.2646919253402228,
+        "distributions_similar": "True",
+        "n_clean": 318,
+        "n_imputed": 125
+      },
+      "FUT10": {
+        "ks_statistic": 0.1280193236714976,
+        "p_value": 0.4337793610239736,
+        "distributions_similar": "True",
+        "n_clean": 138,
+        "n_imputed": 63
+      },
+      "FUT11": {
+        "ks_statistic": 0.20544090056285177,
+        "p_value": 0.43812489546535527,
+        "distributions_similar": "True",
+        "n_clean": 41,
+        "n_imputed": 26
+      },
+      "FUT2": {
+        "ks_statistic": 0.04563356164383562,
+        "p_value": 0.9736923056254687,
+        "distributions_similar": "True",
+        "n_clean": 292,
+        "n_imputed": 160
+      },
+      "FUT3": {
+        "ks_statistic": 0.09986296676944159,
+        "p_value": 0.22759048232537493,
+        "distributions_similar": "True",
+        "n_clean": 278,
+        "n_imputed": 168
+      },
+      "FUT4": {
+        "ks_statistic": 0.06042974531720512,
+        "p_value": 0.8736563405409096,
+        "distributions_similar": "True",
+        "n_clean": 311,
+        "n_imputed": 126
+      },
+      "FUT5": {
+        "ks_statistic": 0.09563994374120956,
+        "p_value": 0.32642931203025327,
+        "distributions_similar": "True",
+        "n_clean": 316,
+        "n_imputed": 135
+      },
+      "FUT6": {
+        "ks_statistic": 0.05071961158314548,
+        "p_value": 0.9386328338257848,
+        "distributions_similar": "True",
+        "n_clean": 292,
+        "n_imputed": 158
+      },
+      "FUT7": {
+        "ks_statistic": 0.15518789277927408,
+        "p_value": 0.02814616135730596,
+        "distributions_similar": "False",
+        "n_clean": 226,
+        "n_imputed": 138
+      },
+      "FUT8": {
+        "ks_statistic": 0.0851984894538086,
+        "p_value": 0.4348301646146064,
+        "distributions_similar": "True",
+        "n_clean": 282,
+        "n_imputed": 154
+      },
+      "FUT9": {
+        "ks_statistic": 0.06875,
+        "p_value": 0.7148617356388355,
+        "distributions_similar": "True",
+        "n_clean": 248,
+        "n_imputed": 160
+      }
+    },
+    "Low": {
+      "FUT1": {
+        "ks_statistic": 0.09416352201257862,
+        "p_value": 0.3752350705617416,
+        "distributions_similar": "True",
+        "n_clean": 318,
+        "n_imputed": 125
+      },
+      "FUT10": {
+        "ks_statistic": 0.11594202898550725,
+        "p_value": 0.5580060242159665,
+        "distributions_similar": "True",
+        "n_clean": 138,
+        "n_imputed": 63
+      },
+      "FUT11": {
+        "ks_statistic": 0.2804878048780488,
+        "p_value": 0.13105829488007867,
+        "distributions_similar": "True",
+        "n_clean": 41,
+        "n_imputed": 26
+      },
+      "FUT2": {
+        "ks_statistic": 0.04845890410958904,
+        "p_value": 0.9557652702756302,
+        "distributions_similar": "True",
+        "n_clean": 292,
+        "n_imputed": 160
+      },
+      "FUT3": {
+        "ks_statistic": 0.09142685851318945,
+        "p_value": 0.3206056939174909,
+        "distributions_similar": "True",
+        "n_clean": 278,
+        "n_imputed": 168
+      },
+      "FUT4": {
+        "ks_statistic": 0.061246363497167354,
+        "p_value": 0.8636272887961174,
+        "distributions_similar": "True",
+        "n_clean": 311,
+        "n_imputed": 126
+      },
+      "FUT5": {
+        "ks_statistic": 0.09247538677918425,
+        "p_value": 0.3656743181196882,
+        "distributions_similar": "True",
+        "n_clean": 316,
+        "n_imputed": 135
+      },
+      "FUT6": {
+        "ks_statistic": 0.06337783943124675,
+        "p_value": 0.7738209726063294,
+        "distributions_similar": "True",
+        "n_clean": 292,
+        "n_imputed": 158
+      },
+      "FUT7": {
+        "ks_statistic": 0.15961267154033604,
+        "p_value": 0.02205729102126579,
+        "distributions_similar": "False",
+        "n_clean": 226,
+        "n_imputed": 138
+      },
+      "FUT8": {
+        "ks_statistic": 0.07870498296030211,
+        "p_value": 0.5351797282469166,
+        "distributions_similar": "True",
+        "n_clean": 282,
+        "n_imputed": 154
+      },
+      "FUT9": {
+        "ks_statistic": 0.075,
+        "p_value": 0.6111495033930803,
+        "distributions_similar": "True",
+        "n_clean": 248,
+        "n_imputed": 160
+      }
+    },
+    "Close": {
+      "FUT1": {
+        "ks_statistic": 0.09758490566037736,
+        "p_value": 0.3332932672842603,
+        "distributions_similar": "True",
+        "n_clean": 318,
+        "n_imputed": 125
+      },
+      "FUT10": {
+        "ks_statistic": 0.13975155279503104,
+        "p_value": 0.32917789667530695,
+        "distributions_similar": "True",
+        "n_clean": 138,
+        "n_imputed": 63
+      },
+      "FUT11": {
+        "ks_statistic": 0.2804878048780488,
+        "p_value": 0.13105829488007867,
+        "distributions_similar": "True",
+        "n_clean": 41,
+        "n_imputed": 26
+      },
+      "FUT2": {
+        "ks_statistic": 0.04940068493150685,
+        "p_value": 0.9483379845917519,
+        "distributions_similar": "True",
+        "n_clean": 292,
+        "n_imputed": 160
+      },
+      "FUT3": {
+        "ks_statistic": 0.0973792394655704,
+        "p_value": 0.25257693316206464,
+        "distributions_similar": "True",
+        "n_clean": 278,
+        "n_imputed": 168
+      },
+      "FUT4": {
+        "ks_statistic": 0.06446179758076864,
+        "p_value": 0.8207627552588741,
+        "distributions_similar": "True",
+        "n_clean": 311,
+        "n_imputed": 126
+      },
+      "FUT5": {
+        "ks_statistic": 0.09664791373652133,
+        "p_value": 0.3145753143483752,
+        "distributions_similar": "True",
+        "n_clean": 316,
+        "n_imputed": 135
+      },
+      "FUT6": {
+        "ks_statistic": 0.06368129009883822,
+        "p_value": 0.7688772684891559,
+        "distributions_similar": "True",
+        "n_clean": 292,
+        "n_imputed": 158
+      },
+      "FUT7": {
+        "ks_statistic": 0.15236629472874183,
+        "p_value": 0.032760810235742725,
+        "distributions_similar": "False",
+        "n_clean": 226,
+        "n_imputed": 138
+      },
+      "FUT8": {
+        "ks_statistic": 0.07469835129409598,
+        "p_value": 0.6008037309891652,
+        "distributions_similar": "True",
+        "n_clean": 282,
+        "n_imputed": 154
+      },
+      "FUT9": {
+        "ks_statistic": 0.07278225806451613,
+        "p_value": 0.6480188466948216,
+        "distributions_similar": "True",
+        "n_clean": 248,
+        "n_imputed": 160
+      }
+    },
+    "Volume": {
+      "FUT1": {
+        "ks_statistic": 0.11418079096045197,
+        "p_value": 0.20021112149305625,
+        "distributions_similar": "True",
+        "n_clean": 300,
+        "n_imputed": 118
+      },
+      "FUT10": {
+        "ks_statistic": 0.11248073959938366,
+        "p_value": 0.6292315604187246,
+        "distributions_similar": "True",
+        "n_clean": 132,
+        "n_imputed": 59
+      },
+      "FUT11": {
+        "ks_statistic": 0.2735135135135135,
+        "p_value": 0.17599372806011626,
+        "distributions_similar": "True",
+        "n_clean": 37,
+        "n_imputed": 25
+      },
+      "FUT2": {
+        "ks_statistic": 0.09917043740573152,
+        "p_value": 0.2616768549753049,
+        "distributions_similar": "True",
+        "n_clean": 272,
+        "n_imputed": 156
+      },
+      "FUT3": {
+        "ks_statistic": 0.10492424242424242,
+        "p_value": 0.20472375547911012,
+        "distributions_similar": "True",
+        "n_clean": 264,
+        "n_imputed": 160
+      },
+      "FUT4": {
+        "ks_statistic": 0.10118711136235162,
+        "p_value": 0.3163229880366485,
+        "distributions_similar": "True",
+        "n_clean": 290,
+        "n_imputed": 122
+      },
+      "FUT5": {
+        "ks_statistic": 0.06317708608571579,
+        "p_value": 0.8413661766320686,
+        "distributions_similar": "True",
+        "n_clean": 298,
+        "n_imputed": 127
+      },
+      "FUT6": {
+        "ks_statistic": 0.10434036876459098,
+        "p_value": 0.21744462624893027,
+        "distributions_similar": "True",
+        "n_clean": 278,
+        "n_imputed": 151
+      },
+      "FUT7": {
+        "ks_statistic": 0.07833450952717008,
+        "p_value": 0.662474807203247,
+        "distributions_similar": "True",
+        "n_clean": 218,
+        "n_imputed": 130
+      },
+      "FUT8": {
+        "ks_statistic": 0.05637738751442123,
+        "p_value": 0.9039589138694907,
+        "distributions_similar": "True",
+        "n_clean": 269,
+        "n_imputed": 145
+      },
+      "FUT9": {
+        "ks_statistic": 0.06559444970040997,
+        "p_value": 0.7949402323758518,
+        "distributions_similar": "True",
+        "n_clean": 231,
+        "n_imputed": 151
+      }
+    },
+    "Open Interest": {
+      "FUT1": {
+        "ks_statistic": 0.10246017799444476,
+        "p_value": 0.31065787006205947,
+        "distributions_similar": "True",
+        "n_clean": 299,
+        "n_imputed": 118
+      },
+      "FUT10": {
+        "ks_statistic": 0.19388803287108372,
+        "p_value": 0.07933988188862412,
+        "distributions_similar": "True",
+        "n_clean": 132,
+        "n_imputed": 59
+      },
+      "FUT11": {
+        "ks_statistic": 0.1783783783783784,
+        "p_value": 0.6541248395182391,
+        "distributions_similar": "True",
+        "n_clean": 37,
+        "n_imputed": 25
+      },
+      "FUT2": {
+        "ks_statistic": 0.06593406593406594,
+        "p_value": 0.7558315217024516,
+        "distributions_similar": "True",
+        "n_clean": 273,
+        "n_imputed": 156
+      },
+      "FUT3": {
+        "ks_statistic": 0.13471958174904944,
+        "p_value": 0.048115261884543785,
+        "distributions_similar": "False",
+        "n_clean": 263,
+        "n_imputed": 160
+      },
+      "FUT4": {
+        "ks_statistic": 0.05796642382008236,
+        "p_value": 0.9170418357795361,
+        "distributions_similar": "True",
+        "n_clean": 287,
+        "n_imputed": 121
+      },
+      "FUT5": {
+        "ks_statistic": 0.06535167952490788,
+        "p_value": 0.8123086959928091,
+        "distributions_similar": "True",
+        "n_clean": 297,
+        "n_imputed": 127
+      },
+      "FUT6": {
+        "ks_statistic": 0.07656684902581821,
+        "p_value": 0.5817647070203557,
+        "distributions_similar": "True",
+        "n_clean": 276,
+        "n_imputed": 151
+      },
+      "FUT7": {
+        "ks_statistic": 0.07198306280875089,
+        "p_value": 0.7574837164605223,
+        "distributions_similar": "True",
+        "n_clean": 218,
+        "n_imputed": 130
+      },
+      "FUT8": {
+        "ks_statistic": 0.09778233559800026,
+        "p_value": 0.3032801282954515,
+        "distributions_similar": "True",
+        "n_clean": 269,
+        "n_imputed": 145
+      },
+      "FUT9": {
+        "ks_statistic": 0.065279091769158,
+        "p_value": 0.7997857544422899,
+        "distributions_similar": "True",
+        "n_clean": 231,
+        "n_imputed": 151
+      }
+    },
+    "overall_pass_rate": 0.9242424242424242,
+    "success": "True"
+  },
+  "check_3_holdout": {
+    "note": "Would need to re-implement imputation on artificial test set",
+    "recommendation": "Take 10% of clean rows, corrupt, measure MAE/RMSE after imputation"
+  },
+  "check_4_look_ahead_bias": {
+    "methods_used": {
+      "local_outlier_global_median_fallback": 2714,
+      "last_traded_settlement": 1173,
+      "forward_fill": 707,
+      "vol_oi_mismatch_backward": 298,
+      "local_outlier_backward_absolute_threshold+local_median": 277,
+      "local_outlier_backward_absolute_threshold+local_median+impossible_jump": 139,
+      "local_outlier_backward_impossible_jump": 69,
+      "local_outlier_backward_absolute_threshold": 16,
+      "local_outlier_backward_absolute_threshold+impossible_jump": 6,
+      "forward_fill_extended": 1
+    },
+    "look_ahead_repairs": 0,
+    "total_repairs": 5400,
+    "look_ahead_percentage": 0.0,
+    "success": true
+  },
+  "check_5_financial_plausibility": {
+    "zero_range_imputed": 196,
+    "tiny_range_imputed": 196,
+    "suspicious_volume_imputations": 71,
+    "total_plausibility_issues": 463,
+    "success": "True"
+  },
+  "check_6_symbol_quality": {
+    "FUT1": {
+      "cleaned_rows": 443,
+      "original_rows": 647,
+      "retention_pct": 68.46986089644514,
+      "original_quality_pct": 43.431221020092735,
+      "repairs": 337,
+      "repair_rate_pct": 76.07223476297969,
+      "completeness_pct": 100.0,
+      "suitable_for_trading": "False"
+    },
+    "FUT10": {
+      "cleaned_rows": 201,
+      "original_rows": 388,
+      "retention_pct": 51.80412371134021,
+      "original_quality_pct": 27.835051546391753,
+      "repairs": 197,
+      "repair_rate_pct": 98.00995024875621,
+      "completeness_pct": 100.0,
+      "suitable_for_trading": "False"
+    },
+    "FUT11": {
+      "cleaned_rows": 67,
+      "original_rows": 647,
+      "retention_pct": 10.35548686244204,
+      "original_quality_pct": 4.791344667697062,
+      "repairs": 121,
+      "repair_rate_pct": 180.59701492537314,
+      "completeness_pct": 100.0,
+      "suitable_for_trading": "False"
+    },
+    "FUT2": {
+      "cleaned_rows": 452,
+      "original_rows": 647,
+      "retention_pct": 69.86089644513137,
+      "original_quality_pct": 42.96754250386399,
+      "repairs": 450,
+      "repair_rate_pct": 99.5575221238938,
+      "completeness_pct": 100.0,
+      "suitable_for_trading": "False"
+    },
+    "FUT3": {
+      "cleaned_rows": 446,
+      "original_rows": 647,
+      "retention_pct": 68.93353941267388,
+      "original_quality_pct": 39.567233384853175,
+      "repairs": 429,
+      "repair_rate_pct": 96.18834080717488,
+      "completeness_pct": 100.0,
+      "suitable_for_trading": "False"
+    },
+    "FUT4": {
+      "cleaned_rows": 437,
+      "original_rows": 647,
+      "retention_pct": 67.54250386398763,
+      "original_quality_pct": 40.34003091190108,
+      "repairs": 541,
+      "repair_rate_pct": 123.79862700228831,
+      "completeness_pct": 100.0,
+      "suitable_for_trading": "False"
+    },
+    "FUT5": {
+      "cleaned_rows": 451,
+      "original_rows": 647,
+      "retention_pct": 69.7063369397218,
+      "original_quality_pct": 45.13137557959814,
+      "repairs": 579,
+      "repair_rate_pct": 128.38137472283816,
+      "completeness_pct": 100.0,
+      "suitable_for_trading": "False"
+    },
+    "FUT6": {
+      "cleaned_rows": 450,
+      "original_rows": 647,
+      "retention_pct": 69.55177743431221,
+      "original_quality_pct": 42.96754250386399,
+      "repairs": 672,
+      "repair_rate_pct": 149.33333333333334,
+      "completeness_pct": 100.0,
+      "suitable_for_trading": "False"
+    },
+    "FUT7": {
+      "cleaned_rows": 364,
+      "original_rows": 647,
+      "retention_pct": 56.25965996908809,
+      "original_quality_pct": 33.848531684698614,
+      "repairs": 522,
+      "repair_rate_pct": 143.4065934065934,
+      "completeness_pct": 100.0,
+      "suitable_for_trading": "False"
+    },
+    "FUT8": {
+      "cleaned_rows": 436,
+      "original_rows": 647,
+      "retention_pct": 67.38794435857805,
+      "original_quality_pct": 40.49459041731066,
+      "repairs": 877,
+      "repair_rate_pct": 201.1467889908257,
+      "completeness_pct": 100.0,
+      "suitable_for_trading": "False"
+    },
+    "FUT9": {
+      "cleaned_rows": 408,
+      "original_rows": 592,
+      "retention_pct": 68.91891891891892,
+      "original_quality_pct": 39.358108108108105,
+      "repairs": 675,
+      "repair_rate_pct": 165.44117647058823,
+      "completeness_pct": 100.0,
+      "suitable_for_trading": "False"
+    },
+    "_summary": {
+      "suitable_count": 0,
+      "total_symbols": 11,
+      "success": false
+    }
+  },
+  "check_7_synthetic_patterns": {
+    "tests": {
+      "benfords_law": {
+        "passed": false,
+        "p_value": 0.0002462412689250101,
+        "chi2_stat": 29.624428981202676,
+        "threshold": 0.05,
+        "message": "Volume first digits deviate from Benford's Law - may be synthetic",
+        "bonferroni_alpha": 0.005555555555555556
+      },
+      "gap_analysis": {
+        "passed": "True",
+        "score": 0.09049227799227799,
+        "threshold": 0.01,
+        "large_gaps": 375,
+        "total_gaps": 4144,
+        "message": "Overnight gaps show realistic fat tails (9.0% >2%)"
+      },
+      "high_low_spread": {
+        "passed": "True",
+        "correlation": -0.002625395422227636,
+        "threshold": 0.05,
+        "message": "High-Low spread shows realistic relationship with volume (r=-0.003)"
+      },
+      "serial_correlation": {
+        "passed": "False",
+        "return_autocorr": 0.00237469261040721,
+        "vol_autocorr": -0.05356872022005201,
+        "threshold": 0.3,
+        "message": "Autocorrelation patterns unrealistic (returns=0.002, vol=-0.054)"
+      },
+      "tick_size": {
+        "passed": "False",
+        "clustering_pct": 0.29626955475330924,
+        "threshold": 0.5,
+        "message": "Prices lack tick clustering (29.6% at increments, expect >50%)"
+      },
+      "hurst_exponent": {
+        "passed": "True",
+        "mean_hurst": 0.49560591862517045,
+        "threshold": 0.35,
+        "n_symbols": 10,
+        "message": "Hurst exponent realistic for futures (H=0.496, n=10 symbols)"
+      },
+      "runs_test": {
+        "passed": true,
+        "z_score": -1.8000871182218585,
+        "p_value": 0.07184688330955742,
+        "threshold": 0.05,
+        "message": "Return sign sequences appear random (p=0.072)",
+        "bonferroni_alpha": 0.005555555555555556
+      },
+      "day_of_week": {
+        "passed": "True",
+        "vol_variation": 0.0044634014467439505,
+        "threshold": 0.0001,
+        "message": "Day-of-week volatility shows natural variation (\u03c3=0.004463)"
+      },
+      "term_structure": {
+        "passed": "False",
+        "mean_ratio": 1.0238080151307747,
+        "ratio_std": 0.10202158321911703,
+        "threshold": 0.05,
+        "message": "Term structure unstable (FUT2/FUT1=1.0238\u00b10.1020)"
+      }
+    },
+    "warnings": [
+      "Volume first digits deviate from Benford's Law - may be synthetic",
+      "Autocorrelation patterns unrealistic (returns=0.002, vol=-0.054)",
+      "Prices lack tick clustering (29.6% at increments, expect >50%)",
+      "Term structure unstable (FUT2/FUT1=1.0238\u00b10.1020)"
+    ],
+    "passed_count": 5,
+    "total_count": 9,
+    "pass_rate": 0.5555555555555556,
+    "success": false
+  }
+}

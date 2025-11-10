@@ -1,0 +1,122 @@
+{
+  "statistics": {
+    "original_rows": 7450,
+    "rows_removed": "3295",
+    "rows_repaired": "5400",
+    "final_rows": 4155,
+    "removal_rate": "44.2%",
+    "data_retention_rate": "55.8%"
+  },
+  "per_symbol": {
+    "FUT1": {
+      "original_rows": "647",
+      "final_rows": 443,
+      "retention_rate": "68.5%",
+      "date_range": {
+        "start": "2023-01-04 00:00:00",
+        "end": "2025-07-30 00:00:00"
+      },
+      "imputed_values": "135"
+    },
+    "FUT10": {
+      "original_rows": "388",
+      "final_rows": 201,
+      "retention_rate": "51.8%",
+      "date_range": {
+        "start": "2023-01-05 00:00:00",
+        "end": "2025-07-31 00:00:00"
+      },
+      "imputed_values": "91"
+    },
+    "FUT11": {
+      "original_rows": "647",
+      "final_rows": 67,
+      "retention_rate": "10.4%",
+      "date_range": {
+        "start": "2023-03-01 00:00:00",
+        "end": "2025-07-15 00:00:00"
+      },
+      "imputed_values": "37"
+    },
+    "FUT2": {
+      "original_rows": "647",
+      "final_rows": 452,
+      "retention_rate": "69.9%",
+      "date_range": {
+        "start": "2023-01-03 00:00:00",
+        "end": "2025-07-30 00:00:00"
+      },
+      "imputed_values": "160"
+    },
+    "FUT3": {
+      "original_rows": "647",
+      "final_rows": 446,
+      "retention_rate": "68.9%",
+      "date_range": {
+        "start": "2023-01-05 00:00:00",
+        "end": "2025-07-29 00:00:00"
+      },
+      "imputed_values": "172"
+    },
+    "FUT4": {
+      "original_rows": "647",
+      "final_rows": 437,
+      "retention_rate": "67.5%",
+      "date_range": {
+        "start": "2023-01-04 00:00:00",
+        "end": "2025-07-31 00:00:00"
+      },
+      "imputed_values": "176"
+    },
+    "FUT5": {
+      "original_rows": "647",
+      "final_rows": 451,
+      "retention_rate": "69.7%",
+      "date_range": {
+        "start": "2023-01-04 00:00:00",
+        "end": "2025-07-31 00:00:00"
+      },
+      "imputed_values": "182"
+    },
+    "FUT6": {
+      "original_rows": "647",
+      "final_rows": 450,
+      "retention_rate": "69.6%",
+      "date_range": {
+        "start": "2023-01-03 00:00:00",
+        "end": "2025-07-31 00:00:00"
+      },
+      "imputed_values": "196"
+    },
+    "FUT7": {
+      "original_rows": "647",
+      "final_rows": 364,
+      "retention_rate": "56.3%",
+      "date_range": {
+        "start": "2023-01-04 00:00:00",
+        "end": "2025-07-29 00:00:00"
+      },
+      "imputed_values": "162"
+    },
+    "FUT8": {
+      "original_rows": "647",
+      "final_rows": 436,
+      "retention_rate": "67.4%",
+      "date_range": {
+        "start": "2023-01-03 00:00:00",
+        "end": "2025-07-31 00:00:00"
+      },
+      "imputed_values": "230"
+    },
+    "FUT9": {
+      "original_rows": "592",
+      "final_rows": 408,
+      "retention_rate": "68.9%",
+      "date_range": {
+        "start": "2023-01-03 00:00:00",
+        "end": "2025-07-30 00:00:00"
+      },
+      "imputed_values": "213"
+    }
+  }
+}

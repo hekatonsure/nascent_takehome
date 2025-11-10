@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+
+# Python version management
+.python-version
+
+# Generated output files
+#output/
+#figures/
+
+# Temporary working documents
+scripts/temp_outline.md
+
+# IDE settings
+.vscode/
+.idea/
+.claude/
+..ipynb_checkpoints/
+CLAUDE.md
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+nul
+
+# Log files
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# pytest cache
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
