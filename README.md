@@ -71,6 +71,9 @@ My assumption is that bad data here is usually something we should discard. This
 
 ## Results
 
+![Repaired Close Price](3figures/price_volume_confidence.png)
+
+
 ### How Much Data Survived: 55.8%
 Started with **7450 rows** â†’ Ended with **4155 rows**
 
