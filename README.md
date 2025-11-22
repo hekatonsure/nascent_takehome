@@ -1,6 +1,6 @@
 # Futures Data Quality Analysis
 
-**Nascent/Sovereign Technical Assessment** | Data Engineering
+**Technical Assessment** | Data Engineering
 
 ## Executive Summary
 
